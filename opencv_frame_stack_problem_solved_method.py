@@ -61,6 +61,7 @@ while True:
         count = 0
         print(nowtime)
     #1000 = 一秒一幀，我這設一秒10幀
+    #The parameter can set FPS, seting 1000 meaning 1 FPS
     if cv2.waitKey(100) == 27:
         cv2.destroyAllWindows()
         ipcam.stop()
